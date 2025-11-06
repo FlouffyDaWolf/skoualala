@@ -179,7 +179,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 90
-  field of view: 85
+  field of view: 110
   orthographic: 0
   orthographic size: 33
   m_Depth: -1
@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 65, y: 76, z: 64}
+  m_LocalPosition: {x: 150, y: 76, z: 95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -406,12 +406,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cbe3e69ae8e450b821d70157faac84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gridXValue: 128
-  _gridYValue: 128
+  _gridXValue: 200
+  _gridYValue: 200
   _cellSize: 1
   _startPosition: {x: 0, y: 0, z: 0}
-  _generationMethod: {fileID: 11400000, guid: 79a45068810ca6d41859a9cfb904d530, type: 2}
-  _drawDebug: 1
+  _generationMethod: {fileID: 11400000, guid: b6832fabf984fb64983430d6966291c2, type: 2}
+  _drawDebug: 0
   _seed: 6952
   _stepDelay: 10
 --- !u!4 &1922166660

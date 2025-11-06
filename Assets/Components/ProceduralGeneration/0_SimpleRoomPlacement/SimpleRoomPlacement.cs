@@ -44,7 +44,7 @@ namespace Components.ProceduralGeneration.SimpleRoomPlacement
 
                 await UniTask.Delay(GridGenerator.StepDelay, cancellationToken: cancellationToken);
             }
-            
+
             // ✅ Et tu gardes uniquement :
             BuildGround();
         }
