@@ -13,4 +13,25 @@ MonoBehaviour:
   m_Name: Noise
   m_EditorClassIdentifier: 
   _maxSteps: 1000
-  _noiseDensity: 50
+  noiseType: 5
+  frequency: 0.103
+  amplitude: 1
+  fractalType: 1
+  octaves: 3
+  lacunarity: 1.53
+  persistence: 0
+  floornoiseType: 4
+  floorfrequency: 0.115
+  flooramplitude: 0.981
+  floorfractalType: 1
+  flooroctaves: 2
+  floorlacunarity: 1.2
+  floorpersistence: 0.5
+  offset: 14
+  waterHeight: -1
+  sandHeight: -1
+  grassHeight: -1
+  rockHeight: -1
+  objects:
+  - {fileID: 6552600573912526833, guid: 6a0dfdf98d053c741a700c0d7708f35e, type: 3}
+  mat: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
